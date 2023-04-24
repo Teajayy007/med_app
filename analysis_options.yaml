@@ -1,0 +1,20 @@
+
+include: package:flutter_lints/flutter.yaml
+
+
+analyzer:
+
+  errors:
+    prefer_single_quotes: error
+    avoid_print: error
+
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+
+  rules:
+    prefer_single_quotes: true
+    always_use_package_imports: true
+
