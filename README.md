@@ -6,6 +6,8 @@ A new Flutter project.
 
 To run this project in your device, use the following command in your terminal:
 
+## ADD base URL in lib/feature/event/application/provider.dart file (DIO client).
+
 ```sh
 
 $ flutter clean

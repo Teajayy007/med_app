@@ -6,8 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 final httpProvider = Provider.autoDispose<Dio>(
   (_) {
     BaseOptions options = BaseOptions(
-      baseUrl:
-          'https://s3-us-west-2.amazonaws.com/ph-svc-mobile-interview-jyzi2gyja',
+      baseUrl: '',
     );
     return Dio(options);
   },
